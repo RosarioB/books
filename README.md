@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Usage
+This application has two servers: the frontend in React and the backend in JSON server. 
+
+The JSON server allow us to create a simple backed by specifying the REST API in the file `api.http`. The data is stored in the file `db.json`.
+
+- To start the frontend you can use `npm run start`.
+
+- To start the backend you can use `npm run server`
+
 ## Available Scripts
 
 In the project directory, you can run:

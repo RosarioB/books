@@ -3,7 +3,7 @@ import axios from "axios";
 import BookCreate from "./components/BookCreate";
 import BookList from "./components/BookList";
 
-const App = () => {
+function App() {
   const [books, setBooks] = useState([]);
 
   const fetchBooks = async () => {

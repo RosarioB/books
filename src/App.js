@@ -2,7 +2,7 @@ import { useState } from "react";
 import BookCreate from "./components/BookCreate";
 import BookList from "./components/BookList";
 
-const App = () => {
+function App() {
   const [books, setBooks] = useState([]);
 
   const editBookById = (id, newTitle) => {

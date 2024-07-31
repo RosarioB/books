@@ -3,7 +3,7 @@ import axios from "axios";
 
 const BooksContext = createContext();
 
-const Provider = ({ children }) => {
+function Provider({ children }) {
   const [books, setBooks] = useState([]);
 
   const fetchBooks = async () => {

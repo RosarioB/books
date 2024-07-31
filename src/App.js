@@ -3,7 +3,7 @@ import BookCreate from './components/BookCreate';
 import BookList from './components/BookList';
 import useBooksContext from './hooks/use-books-context';
 
-const App = () => {
+function App() {
   const { fetchBooks } = useBooksContext();
   
   useEffect(() => {

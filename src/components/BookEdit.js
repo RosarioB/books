@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import useBooksContext from '../hooks/use-books-context';
 
-const BookEdit = ({ book, onSubmit }) => {
+function BookEdit({ book, onSubmit }) {
   const [title, setTitle] = useState(book.title);
   const { editBookById } = useBooksContext();
 
